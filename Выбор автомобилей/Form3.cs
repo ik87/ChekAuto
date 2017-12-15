@@ -23,7 +23,7 @@ namespace Выбор_автомобилей {
             List<TAuto> cars = new List<TAuto>();
             BinaryFormatter bformatter = new BinaryFormatter();
 
-            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.Filter = "dat files (*.dat)|*.dat|";
             saveFileDialog1.FilterIndex = 2;
             saveFileDialog1.RestoreDirectory = true;
 

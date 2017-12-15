@@ -22,7 +22,7 @@ namespace Выбор_автомобилей {
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             // openFileDialog1.InitialDirectory = "c:\\";
-            openFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            openFileDialog1.Filter = "txt files (*.txt)|*.txt";
             openFileDialog1.FilterIndex = 2;
             openFileDialog1.RestoreDirectory = true;
             if (openFileDialog1.ShowDialog() == DialogResult.OK) {
@@ -58,7 +58,7 @@ namespace Выбор_автомобилей {
             List<TAuto> cars = new List<TAuto>();
             BinaryFormatter bformatter = new BinaryFormatter();
             SaveFileDialog saveFileDialog1 = new SaveFileDialog();
-            saveFileDialog1.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+            saveFileDialog1.Filter = "dat files (*.dat)|*.dat";
             saveFileDialog1.FilterIndex = 2;
             saveFileDialog1.RestoreDirectory = true;
 

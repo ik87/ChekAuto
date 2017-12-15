@@ -1,0 +1,12 @@
+MG 1000000 1 5 Great
+Mercedes-Benz 500000 2 10 Good
+BMW 300000 3 15 Satisfactory
+BMW 100000 4 20 Great
+BMW 400000 5 5 Good
+Audi 500000 6 10 Satisfactory
+Audi 600000 7 15 Great
+Audi 400000 1 20 Good
+Audi 200000 2 5 Satisfactory
+Audi 100000 4 10 Great
+Rolls-Royce 1000000 6 15 Good
+Rolls-Royce 1000000 7 20 Satisfactory
